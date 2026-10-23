@@ -61,12 +61,22 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Projects
+
+| Project | Description | Stack | Live |
+|---------|-------------|-------|------|
+| **Lajur** | AI-assisted job tracker for Indonesian job seekers. Kanban board, H-3/H-1 email reminders, AI form-fill with PII redaction. | Next.js · TypeScript · PostgreSQL · Groq | [↗](https://lajur.vercel.app) |
+| **Commission Tracker** | Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client. | Next.js · TypeScript · Supabase | [↗](https://commission-tracker-one.vercel.app) |
+| **INDETA** | Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA. | Laravel · Tailwind CSS · Supabase | [↗](https://indeta.vercel.app) |
+| **SUGIH** | Company profile with animated public site and custom admin panel with drag-and-drop product ordering. | Laravel · Alpine.js · GSAP · PostgreSQL | [↗](https://sugih.vercel.app) |
+
+---
+
+## 📈 Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ariefusry&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ariefusry&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ariefusry&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ariefusry)
 
 </div>
 
