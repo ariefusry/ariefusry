@@ -76,7 +76,7 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ariefusry&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ariefusry)
+[![GitHub Streak](https://streak-stats.demolab.com?user=ariefusry&theme=tokyonight&hide_border=true)](https://github.com/ariefusry)
 
 </div>
 
