@@ -61,6 +61,17 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=ariefusry&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ariefusry&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
+
+</div>
+
+---
+
 <div align="center">
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ariefusry.ariefusry)
