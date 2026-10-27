@@ -2,7 +2,7 @@
 
 <img src="https://media.giphy.com/media/RGyUJwAFjP38P3uEiV/giphy.gif" width="600" alt="Cyberpunk Edgerunners"/>
 
-# Hi, I'm Arief Muhammad Usry 👋
+# Hi, I'm Rie 👋
 
 **Fullstack Developer** · Bekasi, Indonesia
 
