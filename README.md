@@ -68,14 +68,64 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 
 ## 🚀 Featured Projects
 
-| Project | Description | Stack | Live |
-|---------|-------------|-------|------|
-| **[Blister64](https://github.com/ariefusry/diecast-auction)** | 1:64 diecast auction site. Escrow wallet with an append-only ledger, anti-sniping time extension, buy-now, and natural-language search turned into SQL filters by Gemini. | Go · PostgreSQL · React · Docker · AWS EC2 | [↗](https://blister64.ariefusry.me) |
-| **[Lajur](https://github.com/ariefusry/lajur)** | AI-assisted job tracker for Indonesian job seekers. Kanban board, H-3/H-1 email reminders, AI form-fill with PII redaction. | Next.js · TypeScript · Prisma · Neon · Groq | [↗](https://lajur.vercel.app) |
-| **[Portfolio](https://github.com/ariefusry/Website-Portofolio)** | Bilingual portfolio with a Supabase-backed admin dashboard and RLS. Falls back to seed content when the database is unreachable. | Next.js · TypeScript · Supabase | [↗](https://ariefusry.me) |
-| **[Commission Tracker](https://github.com/ariefusry/Commission-Tracker)** | Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client. | Next.js · TypeScript · Supabase | [↗](https://commission-tracker-one.vercel.app) |
-| **[INDETA](https://github.com/ariefusry/INDETA)** | Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA. | Laravel · Tailwind CSS · Supabase | [↗](https://indeta.vercel.app) |
-| **[SUGIH](https://github.com/ghazyfadhal/sugih)** | Company profile with animated public site and custom admin panel with drag-and-drop product ordering. | Laravel · Alpine.js · GSAP · PostgreSQL | [↗](https://sugih.vercel.app) |
+<table><tr>
+<td width="50%" valign="top">
+<a href="https://blister64.ariefusry.me"><img src="https://raw.githubusercontent.com/ariefusry/diecast-auction/main/frontend/public/icon-512.png" width="56" height="56" alt="Blister64"></a>
+
+### [Blister64](https://github.com/ariefusry/diecast-auction)
+1:64 diecast auction site with an escrow wallet, anti-sniping, buy-now, and natural-language search powered by Gemini.
+
+<sub>Go · PostgreSQL · React · Docker · AWS EC2</sub><br>
+<a href="https://blister64.ariefusry.me">Live ↗</a> · <a href="https://github.com/ariefusry/diecast-auction">Repo</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://lajur.vercel.app"><img src="https://raw.githubusercontent.com/ariefusry/lajur/master/docs/brand/symbol/icon-512.png" width="56" height="56" alt="Lajur"></a>
+
+### [Lajur](https://github.com/ariefusry/lajur)
+AI-assisted job tracker for Indonesian job seekers. Kanban board, H-3/H-1 email reminders, AI form-fill with PII redaction.
+
+<sub>Next.js · TypeScript · Prisma · Neon · Groq</sub><br>
+<a href="https://lajur.vercel.app">Live ↗</a> · <a href="https://github.com/ariefusry/lajur">Repo</a>
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+<a href="https://commission-tracker-one.vercel.app"><img src="https://raw.githubusercontent.com/ariefusry/Commission-Tracker/main/public/icons/icon-512.png" width="56" height="56" alt="Commission Tracker"></a>
+
+### [Commission Tracker](https://github.com/ariefusry/Commission-Tracker)
+Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client.
+
+<sub>Next.js · TypeScript · Supabase</sub><br>
+<a href="https://commission-tracker-one.vercel.app">Live ↗</a> · <a href="https://github.com/ariefusry/Commission-Tracker">Repo</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://ariefusry.me"><img src="https://raw.githubusercontent.com/ariefusry/Website-Portofolio/main/src/app/icon.png" width="56" height="56" alt="Portfolio"></a>
+
+### [Portfolio](https://github.com/ariefusry/Website-Portofolio)
+Bilingual portfolio with a Supabase-backed admin dashboard and RLS. Falls back to seed content when the database is unreachable.
+
+<sub>Next.js · TypeScript · Supabase</sub><br>
+<a href="https://ariefusry.me">Live ↗</a> · <a href="https://github.com/ariefusry/Website-Portofolio">Repo</a>
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+<a href="https://indeta.vercel.app"><img src="https://raw.githubusercontent.com/ariefusry/INDETA/master/public/images/icon-192x192.png" width="56" height="56" alt="INDETA"></a>
+
+### [INDETA](https://github.com/ariefusry/INDETA)
+Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA.
+
+<sub>Laravel · Tailwind CSS · Supabase</sub><br>
+<a href="https://indeta.vercel.app">Live ↗</a> · <a href="https://github.com/ariefusry/INDETA">Repo</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://sugih.vercel.app"><img src="https://raw.githubusercontent.com/ghazyfadhal/sugih/main/public/images/favicon.svg" width="56" height="56" alt="SUGIH"></a>
+
+### [SUGIH](https://github.com/ghazyfadhal/sugih)
+Company profile with animated public site and custom admin panel with drag-and-drop product ordering.
+
+<sub>Laravel · Alpine.js · GSAP · PostgreSQL</sub><br>
+<a href="https://sugih.vercel.app">Live ↗</a> · <a href="https://github.com/ghazyfadhal/sugih">Repo</a>
+</td>
+</tr></table>
 
 ---
 
