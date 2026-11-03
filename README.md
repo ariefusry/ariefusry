@@ -24,6 +24,7 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 ## 🛠️ Tech Stack
 
 ### Web & Mobile
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -49,7 +50,11 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=postgresql&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -65,10 +70,21 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 
 | Project | Description | Stack | Live |
 |---------|-------------|-------|------|
-| **Lajur** | AI-assisted job tracker for Indonesian job seekers. Kanban board, H-3/H-1 email reminders, AI form-fill with PII redaction. | Next.js · TypeScript · PostgreSQL · Groq | [↗](https://lajur.vercel.app) |
-| **Commission Tracker** | Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client. | Next.js · TypeScript · Supabase | [↗](https://commission-tracker-one.vercel.app) |
-| **INDETA** | Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA. | Laravel · Tailwind CSS · Supabase | [↗](https://indeta.vercel.app) |
+| **[Blister64](https://github.com/ariefusry/diecast-auction)** | 1:64 diecast auction site. Escrow wallet with an append-only ledger, anti-sniping time extension, buy-now, and natural-language search turned into SQL filters by Gemini. | Go · PostgreSQL · React · Docker · AWS EC2 | [↗](https://blister64.ariefusry.me) |
+| **[Lajur](https://github.com/ariefusry/lajur)** | AI-assisted job tracker for Indonesian job seekers. Kanban board, H-3/H-1 email reminders, AI form-fill with PII redaction. | Next.js · TypeScript · Prisma · Neon · Groq | [↗](https://lajur.vercel.app) |
+| **[Portfolio](https://github.com/ariefusry/Website-Portofolio)** | Bilingual portfolio with a Supabase-backed admin dashboard and RLS. Falls back to seed content when the database is unreachable. | Next.js · TypeScript · Supabase | [↗](https://ariefusry.me) |
+| **[Commission Tracker](https://github.com/ariefusry/Commission-Tracker)** | Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client. | Next.js · TypeScript · Supabase | [↗](https://commission-tracker-one.vercel.app) |
+| **[INDETA](https://github.com/ariefusry/INDETA)** | Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA. | Laravel · Tailwind CSS · Supabase | [↗](https://indeta.vercel.app) |
 | **SUGIH** | Company profile with animated public site and custom admin panel with drag-and-drop product ordering. | Laravel · Alpine.js · GSAP · PostgreSQL | [↗](https://sugih.vercel.app) |
+| **[StockFlow](https://github.com/ariefusry/stockflow)** | Mini ERP for inventory and sales: stock adjustments with movement history, orders, and a summary dashboard. Integration tests run against real Postgres. | Go · PostgreSQL · React · Docker | — |
+
+---
+
+## 📄 Research
+
+**[Prediction of ER-LBD Toxicity using ANN Optimized by Grey Wolf Optimizer](https://github.com/ariefusry/Prediction-of-ER-LBD-Toxicity-using-ANN-Optimized-by-Grey-Wolf-Optimizer)** · IC2IE 2026, first author
+
+A neural network tuned by the Grey Wolf Optimizer that predicts whether a chemical is toxic to the estrogen receptor, trained on heavily imbalanced data (18.6 non-toxic samples per toxic one).
 
 ---
 
