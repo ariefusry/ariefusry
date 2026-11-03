@@ -75,8 +75,7 @@ Informatics graduate (GPA 3.76, cum laude) from Telkom University. I build web a
 | **[Portfolio](https://github.com/ariefusry/Website-Portofolio)** | Bilingual portfolio with a Supabase-backed admin dashboard and RLS. Falls back to seed content when the database is unreachable. | Next.js · TypeScript · Supabase | [↗](https://ariefusry.me) |
 | **[Commission Tracker](https://github.com/ariefusry/Commission-Tracker)** | Order management PWA for illustrators. Drag-and-drop Kanban, income dashboard, private tracking page per client. | Next.js · TypeScript · Supabase | [↗](https://commission-tracker-one.vercel.app) |
 | **[INDETA](https://github.com/ariefusry/INDETA)** | Tourism and UMKM platform with destination, product, travel package, article and review modules. Installable as PWA. | Laravel · Tailwind CSS · Supabase | [↗](https://indeta.vercel.app) |
-| **SUGIH** | Company profile with animated public site and custom admin panel with drag-and-drop product ordering. | Laravel · Alpine.js · GSAP · PostgreSQL | [↗](https://sugih.vercel.app) |
-| **[StockFlow](https://github.com/ariefusry/stockflow)** | Mini ERP for inventory and sales: stock adjustments with movement history, orders, and a summary dashboard. Integration tests run against real Postgres. | Go · PostgreSQL · React · Docker | — |
+| **[SUGIH](https://github.com/ghazyfadhal/sugih)** | Company profile with animated public site and custom admin panel with drag-and-drop product ordering. | Laravel · Alpine.js · GSAP · PostgreSQL | [↗](https://sugih.vercel.app) |
 
 ---
 
