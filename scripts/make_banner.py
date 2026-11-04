@@ -1,10 +1,11 @@
 """Generate assets/banner.svg: a terminal-style profile banner.
 
-An animated dot portrait made from the GitHub avatar inside a framed panel listing stack, projects and research.
+An animated dot portrait made from the GitHub avatar inside a framed panel listing stack and research.
 
 Usage: python scripts/make_banner.py path/to/avatar.png
 """
 import sys
+import textwrap
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -23,12 +24,6 @@ SECTIONS = [
         ("database", "PostgreSQL, MySQL, Supabase, Neon, Prisma"),
         ("infra", "Docker, Nginx, AWS EC2, Cloudflare, Vercel"),
     ]),
-    ("Featured Projects", [
-        ("blister64", "diecast auction, escrow wallet, AI search"),
-        ("lajur", "AI-assisted job tracker for job seekers"),
-        ("commission-tracker", "order tracker for illustrators"),
-        ("indeta, sugih", "client platforms (freelance)"),
-    ]),
     ("Research", [
         ("IC2IE 2026", "ER-LBD toxicity, ANN + Grey Wolf Optimizer"),
     ]),
@@ -40,6 +35,7 @@ FOOTER = [
     ("ariefusry.me", "", "#6b6b6b", "#6b6b6b"),
 ]
 
+FS, HFS, WRAP = 20, 18, 41
 FONT = "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace"
 GOLD, AMBER, BRONZE = "#ff6b6b", "#e8232f", "#8e1620"
 DIM, TEXT, BG = "#9a3b40", "#e6e6e6", "#0c0c0c"
@@ -61,7 +57,7 @@ def portrait_svg(avatar, x0, y0, n, pitch, threshold=170, band=8, cycle=6):
         for y in range(b, min(b + band, n)):
             for x in range(n):
                 if edge.getpixel((x, y)) or (mask.getpixel((x, y)) and (x + y) % 2 == 0):
-                    dots.append(f'<circle cx="{x0 + x * pitch:.1f}" cy="{y0 + y * pitch:.1f}" r="1.15"/>')
+                    dots.append(f'<circle cx="{x0 + x * pitch:.1f}" cy="{y0 + y * pitch:.1f}" r="{pitch * 0.38:.2f}"/>')
         anim = ""
         if b // band in glitch:
             d1, d2 = glitch[b // band]
@@ -82,17 +78,17 @@ def portrait_svg(avatar, x0, y0, n, pitch, threshold=170, band=8, cycle=6):
 <use href="#dots" fill="#3ee8ff" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;.35;0" keyTimes="0;.62;.68" dur="{cycle}s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;-4 0;0 0" keyTimes="0;.62;.68" dur="{cycle}s" repeatCount="indefinite"/></use>"""
 
 
-def text(x, y, parts, size=17, weight="normal"):
+def text(x, y, parts, size=FS, weight="normal"):
     spans = "".join(f'<tspan fill="{c}">{escape(s)}</tspan>' for s, c in parts)
     return f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}">{spans}</text>'
 
 
 def main(avatar):
-    W = 1240
+    W = 900
     panel_y = 36
-    n, pitch = 120, 3.1
+    n, pitch = 120, 2.6
     left_x, art_y = 56, panel_y + 40
-    right_x, lh = 450, 24
+    right_x, lh = 392, 28
 
     body = []
     y = panel_y + 52
@@ -100,8 +96,13 @@ def main(avatar):
         body.append(text(right_x, y, [(head, AMBER)], weight="bold"))
         y += lh
         for k, v in items:
-            body.append(text(right_x, y, [(k + ": ", DIM), (v, TEXT)]))
+            lines = textwrap.wrap(f"{k}: {v}", WRAP, subsequent_indent="  ", break_on_hyphens=False)
+            first = lines[0][len(k) + 2:]
+            body.append(text(right_x, y, [(k + ": ", DIM), (first, TEXT)]))
             y += lh
+            for line in lines[1:]:
+                body.append(f'<text x="{right_x}" y="{y}" font-size="{FS}" xml:space="preserve" fill="{TEXT}">{escape(line)}</text>')
+                y += lh
         y += lh * 0.6
 
     fy = art_y + n * pitch + 34
@@ -111,12 +112,12 @@ def main(avatar):
     panel_h = max(y, fy) - panel_y + 6
     H = panel_y + panel_h + 24
 
-    hw = len(HEADER) * 9.4 + 28
+    hw = len(HEADER) * 10 + 28
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H:.0f}" viewBox="0 0 {W} {H:.0f}" font-family="{FONT}">
 <rect width="100%" height="100%" rx="14" fill="{BG}"/>
 <rect x="24" y="{panel_y}" width="{W - 48}" height="{panel_h:.0f}" rx="10" fill="none" stroke="{BRONZE}" stroke-width="1.5"/>
 <rect x="{(W - hw) / 2:.0f}" y="{panel_y - 12}" width="{hw:.0f}" height="24" fill="{BG}"/>
-<text x="{W / 2}" y="{panel_y + 6}" text-anchor="middle" font-size="17" font-weight="bold" fill="{GOLD}">{escape(HEADER)}</text>
+<text x="{W / 2}" y="{panel_y + 6}" text-anchor="middle" font-size="{HFS}" font-weight="bold" fill="{GOLD}">{escape(HEADER)}</text>
 {portrait_svg(avatar, left_x, art_y, n, pitch)}
 {"".join(body)}
 </svg>
