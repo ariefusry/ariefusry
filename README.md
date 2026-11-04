@@ -75,6 +75,16 @@ Company profile with animated public site and custom admin panel with drag-and-d
 <sub>Laravel · Alpine.js · GSAP · PostgreSQL</sub><br>
 <a href="https://sugih.vercel.app">Live ↗</a> · <a href="https://github.com/ghazyfadhal/sugih">Repo</a>
 </td>
+</tr><tr>
+<td colspan="2" valign="top">
+<a href="https://github.com/ariefusry/haiku-swarm-strike"><img src="assets/haiku-swarm-strike.svg" width="56" height="56" alt="haiku-swarm-strike"></a>
+
+### [haiku-swarm-strike](https://github.com/ariefusry/haiku-swarm-strike)
+Claude Code skill. Up to 10 Haiku subagents explore read-only, then Opus checks their findings, decides, and is the only agent that makes changes.
+
+<sub>Claude Code · Agent Skills · Subagents</sub><br>
+<code>npx skills add ariefusry/haiku-swarm-strike</code> · <a href="https://github.com/ariefusry/haiku-swarm-strike">Repo</a>
+</td>
 </tr></table>
 
 ---
