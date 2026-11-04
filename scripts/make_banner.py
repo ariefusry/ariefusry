@@ -14,7 +14,7 @@ from PIL import Image, ImageChops, ImageFilter, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "banner.svg"
 
-HEADER = "Arief Muhammad Usry · Fullstack Developer · Bekasi, Indonesia"
+HEADER = "Arief Muhammad Usry · Fullstack Engineer · Bekasi, Indonesia"
 
 SECTIONS = [
     ("Stack", [

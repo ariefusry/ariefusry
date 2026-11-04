@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Arief Muhammad Usry, Fullstack Developer from Bekasi, Indonesia"/>
+<img src="assets/banner.svg" width="100%" alt="Arief Muhammad Usry, Fullstack Engineer from Bekasi, Indonesia"/>
 
 [![Portfolio](https://img.shields.io/badge/ariefusry.me-000000?style=flat-square)](https://ariefusry.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ariefusry)
